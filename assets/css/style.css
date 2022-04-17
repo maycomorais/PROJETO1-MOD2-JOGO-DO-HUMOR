@@ -7,6 +7,8 @@
 }
 body {
     height: 100%;
+    width: 100%;
+    
 }
 /* CABEÇALHO */
 header { /*CABEÇALHO*/
@@ -17,11 +19,14 @@ header { /*CABEÇALHO*/
     background-color: #000000;
     justify-content: center;
     height: 8rem;
+   
 }
 .logo { /*LOGO IMAGEM*/
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 .faixa {
@@ -65,7 +70,9 @@ li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;   
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
 }
 .main:after {
     content: "";
@@ -84,6 +91,8 @@ li a:hover {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .expressoes { 
     display: flex;  
@@ -104,14 +113,13 @@ li a:hover {
     width: 94.3%;
     align-content: center;
     border: 10px solid #960009;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 input {
     justify-content: center;
+    position: fixed;
 }
 .button {
     display: flex;
@@ -136,6 +144,7 @@ footer {
     padding: 1.5rem;
     text-align: center;
     color: whitesmoke;
+    font-family: Roboto, bold;
     font-size: 1rem;
     margin-top: 3rem;
     width: 100%;
@@ -150,5 +159,5 @@ footer {
   }
   
   footer a:hover {
-    color: rgb(228, 169, 92);
+    color: #000000;
   }
