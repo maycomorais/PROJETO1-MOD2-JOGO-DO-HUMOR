@@ -3,8 +3,8 @@ Projeto 1 do Módulo 2 para o curso de Desenvolvimento Web Full Stack da Blue Ed
 ### CLIQUE NA IMAGEM ABAIXO PARA ACESSAR A PÁGINA
 
 <div align="center">
-  <a href="https://maycomorais.github.io/PROJETO1-MOD2-JOGO-DO-HUMOR/" target="_blank">
-    <img style="width: 500px;" src="https://maycomorais.github.io/PROJETO1-MOD2-JOGO-DO-HUMOR/assets/img/logo.png" target="_blank" alt="Lie to Me*">
+  <a href="https://maycomorais.github.io/PROJETO1-MOD2-JOGO-DO-HUMOR/" target="_blank'">
+    <img style="width: 500px;" src="https://maycomorais.github.io/PROJETO1-MOD2-JOGO-DO-HUMOR/assets/img/logo.png" target="_blank'" alt="Lie to Me*">
   </a>
 </div>
 
